@@ -10,7 +10,7 @@ public class HomePage
 		@FindBy(xpath="//button[contains(text(),'✕')]") private WebElement popupcancel;
 		@FindBy(xpath="//input[@name=\"q\"]") private WebElement searchbox;
 		@FindBy(xpath="//button[@type='submit']") private WebElement search;
-
+		@FindBy(xpath="//button[@type='branch']") private WebElement branch;
         
 	
 		
