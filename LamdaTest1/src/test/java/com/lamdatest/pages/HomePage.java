@@ -12,12 +12,7 @@ public class HomePage
 	@FindBy(xpath="//button[@type='submit']") private WebElement search;
 
 	@FindBy(xpath="//button[@type='branch']") private WebElement branch;
-   
-	@FindBy(xpath="//button[@type='branch']") private WebElement test;
 	
-        
-	
-		
 		public HomePage(WebDriver driver)
 		{
 			PageFactory.initElements(driver,this);
