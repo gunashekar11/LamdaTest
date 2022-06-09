@@ -1,7 +1,7 @@
 package com.test;
 
 public class test {
-int a = 10;
-int b = 20;
-int c = a*b;
+int d = 10;
+int e = 20;
+int f = d*e;
 }
