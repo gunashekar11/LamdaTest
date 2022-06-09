@@ -12,6 +12,7 @@ public class HomePage
 	@FindBy(xpath="//button[@type='submit']") private WebElement search;
         @FindBy(xpath="//button[@type='branch']") private WebElement gitapplication;
 	@FindBy(xpath="//button[@type='branch']") private WebElement branch;
+
 	
 		public HomePage(WebDriver driver)
 		{
